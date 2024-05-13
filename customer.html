@@ -1,7 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Product</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/customer.css">
@@ -28,6 +31,29 @@
                 <button class="btn-three">
                     <ion-icon name="contrast"></ion-icon>
                 </button>
+            </div>
+            <div class="burger-menu">
+                <input type="checkbox" id="menu-toggle"/>
+                <label id="menu-button" class="menu-button" for="menu-toggle">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </label>
+                <div id="site-menu">
+                    <ul id="site-menu-titles">
+                        <li><p><a href="index.html">Product</a></p></li>
+                        <li><p><a href="#">Customers </a></p></li>
+                        <li><p><a href="#">Pricing</a></p></li>
+                        <li><p><a href="#">Resources</a></p></li>
+                        <li>
+                            <button class="btn-one">Sign In</button>
+                            <button class="btn-two">Sign Up</button>
+                            <button class="btn-three">
+                                <ion-icon name="contrast"></ion-icon>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -91,9 +117,129 @@
     <div class="container">
         <div class="work">
             <h1>How Product Work?</h1>
+            <div class="work-general">
+                <img src="./img/work-img-one.png" alt="img">
+                <div class="work-text">
+                    <h2>STEP 1</h2>
+                    <h3>Apply for a product</h3>
+                    <p>Completing our easy step-by-step application form gives you access to
+                        multiple business with multiple products. We analyse
+                        your business through our proprietary credit analysis technology </p>
+                </div>
+            </div>
+            <div class="work-general-two">
+                <div class="work-text">
+                    <h2>STEP 2</h2>
+                    <h3>Pay fully refundable</h3>
+                    <p>Product will contactting you instantly to receive payment of
+                        the Application Fee. if no
+                        offer of product is available, your fee will be fully refunded.</p>
+                </div>
+                <img src="./img/work-img-two.png" alt="img">
+            </div>
+            <div class="work-general-three">
+                <img src="./img/work-img-three.png" alt="img">
+                <div class="work-text">
+                    <h2>STEP 3</h2>
+                    <h3>Completion</h3>
+                    <p>Product will continue to liase between borrower and manager
+                        to procees and complete a quick and efficient settlement</p>
+                </div>
+            </div>
+            <button>Get in touch with us</button>
         </div>
     </div>
 </section>
+
+<section id="thousand">
+    <div class="container">
+        <div class="thousand">
+            <h1>Join thousand of other who have
+                already received offers</h1>
+            <div class="thousand-general">
+                <div class="thousand-block">
+                    <div class="thousand-icon">
+                        <img src="./img/icon-red.svg" alt="img">
+                    </div>
+                    <h2>Business</h2>
+                    <h4>Cash Flow</h4>
+                    <h4>Asset Backed</h4>
+                    <h4>Receivables Finance</h4>
+                    <h5>Find the best business product</h5>
+                </div>
+                <div class="thousand-block">
+                    <div class="thousand-icon-two">
+                        <img src="./img/thousand-img-one.svg" alt="img">
+                    </div>
+                    <h2>Enterprise</h2>
+                    <h4>Site Acquisition</h4>
+                    <h4>Bridge</h4>
+                    <h4>Development Financing</h4>
+                    <h5>Find the best business product</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="join">
+    <div class="container">
+        <div class="join">
+            <div class="join-text">
+                <h1>Join 100 Compannies who boost their business with</h1>
+                <h2>Product</h2>
+                <button>Get This</button>
+            </div>
+            <img src="./img/join-img.png" alt="img">
+        </div>
+    </div>
+</section>
+
+
+<footer id="footer">
+    <div class="container">
+        <div class="footer">
+            <div class="footer-general">
+                <div class="footer-logo">
+                    <img src="./img/footer-logo.svg" alt="img">
+                    <div class="footer-icon-general">
+                        <a href="https://www.instagram.com/">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="https://www.facebook.com/?locale=ru_RU">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="https://twitter.com/?lang=ru">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-navbar">
+                    <h3>Resource</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="footer-navbar">
+                    <h3>Legal Stuff</h3>
+                    <a href="#">Disclaimer</a>
+                    <a href="#">Financing</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+                <div class="footer-contact">
+                    <p>knowing you're always on the best energy deal.</p>
+                    <input type="text" placeholder="0707345456...">
+                    <button>Sign up Now</button>
+                </div>
+            </div>
+            <h6>Made With Love By Figmaland All Right Reserved </h6>
+        </div>
+    </div>
+</footer>
+
+
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
